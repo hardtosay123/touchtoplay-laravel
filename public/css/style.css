@@ -1,0 +1,75 @@
+body {
+    background-color: #F1F1F1;
+}
+
+.main-padding-top {
+    padding-top: 77px;
+}
+
+ul.navbar-nav>li.nav-item:hover {
+    background-color: #3490DC;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+}
+
+ul.navbar-nav>li.nav-item:hover>a {
+    color: white !important;
+}
+
+.active-link {
+    background-color: #34a7dc;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+}
+
+.active-link>a {
+    color: white !important;
+}
+
+.h-fixed {
+    height: 300px;
+}
+
+.img-fixed {
+    height: 200px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.boxshadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.indicator-status {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.status-on {
+    background: linear-gradient(-45deg, rgb(0, 255, 0), rgb(255, 255, 255), rgb(0, 255, 0), rgb(255, 255, 255));
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+.status-maintenance {
+    background: linear-gradient(-45deg, rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 0, 0), rgb(255, 255, 255));
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
